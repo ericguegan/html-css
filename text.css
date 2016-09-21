@@ -5,14 +5,31 @@ html {
 body{
 margin:0px;
 }
-#header{
+#header {
 height:30px;
 background:#025986;
+color: white;
 }
+a:visited
+{
+color: #ffffff;
+} 
+a:hover
+{
+	color: yellow;
+}
+
 #photo{
 	position: relative;
 	margin-left: 700px;
 }
+.a1 {
+	margin-left: 30px;
+}
+.a2 {
+	margin-left: 60px;
+}
+
 .adresse {
 	text-align:left;
 	line-height : 0.5;
@@ -50,6 +67,9 @@ background:#025986;
 .italique {
 	font-style : italic;
 	color: blue;
+}
+.b3 {
+	float:right;
 }
 #footer{
 height:50px;
