@@ -18,7 +18,8 @@ html {
 	color: #30902e;
 }
 .experience {
-	
+	font-family: Comic;
+	line-height : 2.0;
 }
 .periode {
 	font-weight:bold; 
