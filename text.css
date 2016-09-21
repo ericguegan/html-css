@@ -1,3 +1,45 @@
+
+html {
+	font-family: Comic;
+}
+#photo{
+	position: relative;
+	margin-left: 600px;
+}
 .adresse {
 	text-align:left;
+	line-height : 0.5;
+	}
+.interv {
+	color:e75c15;
+}
+.titre {
+	text-align: center;
+	color: #30902e;
+}
+.experience {
+	
+}
+.periode {
+	font-weight:bold; 
+	margin-left: 10px;
+	width: 200px; 
+}
+.pro {
+	position: relative;
+	margin-left: 100px;
+}
+.formation {
+	color:e75c15;
+}
+.langue {
+	
+}
+.activite {
+	line-height : 0.5;
+}
+
+.italique {
+	font-style : italic;
+	color: blue;
 }
