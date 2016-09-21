@@ -1,2 +1,1 @@
-# html-css
-Entrainement au Html et Css
+https://github.com/ericguegan/html-css/index.html
