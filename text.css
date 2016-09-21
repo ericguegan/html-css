@@ -8,7 +8,10 @@ margin:0px;
 #header {
 height:30px;
 background:#025986;
-color: white;
+color: #ffffff;
+}
+a: {
+color:#ffffff;	
 }
 a:visited
 {
@@ -17,6 +20,9 @@ color: #ffffff;
 a:hover
 {
 	color: yellow;
+}
+a:active {
+	color:#ffffff;
 }
 
 #photo{
@@ -40,6 +46,10 @@ a:hover
 .titre {
 	text-align: center;
 	color: #30902e;
+	border: 1px solid blue;
+}
+.w2crea {
+	margin-bottom: -21px;
 }
 .experience {
 	font-family: Comic;
