@@ -1,1 +1,1 @@
-https://github.com/ericguegan/html-css/index
+https://github.com/ericguegan/html-css/index.html
