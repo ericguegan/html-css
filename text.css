@@ -2,9 +2,16 @@
 html {
 	font-family: Comic;
 }
+body{
+margin:0px;
+}
+#header{
+height:30px;
+background:#025986;
+}
 #photo{
 	position: relative;
-	margin-left: 600px;
+	margin-left: 700px;
 }
 .adresse {
 	text-align:left;
@@ -43,4 +50,8 @@ html {
 .italique {
 	font-style : italic;
 	color: blue;
+}
+#footer{
+height:50px;
+background:#025986;
 }
