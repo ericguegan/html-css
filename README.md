@@ -1,1 +1,1 @@
-https://github.com/ericguegan/html-css/blob/master/index.html
+http://w2crea.fr/Docs/CV/index.html
