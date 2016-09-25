@@ -102,6 +102,8 @@ a:active {
 
 .pro {
 		margin-left: 100px;
+		text-align:justify;
+		text-justify:newspaper;
 }
 
 /* Je fixe la couleur de la partie "Formations et diplômes" */
