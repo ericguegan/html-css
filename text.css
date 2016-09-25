@@ -1,15 +1,18 @@
-
+/* Je pose ma police de caractère sur toute ma page: */
 html {
 	font-family: Comic;
 }
+/* Je fixe la marge du body */
 body{
 margin:0px;
 }
+/* Je pose la taille et la couleur de l'entête */
 #header {
 height:30px;
 background:#025986;
 color: #ffffff;
 }
+/* Je règle la couleur de mes liens sur ma page */
 a: {
 color:#ffffff;	
 }
@@ -24,64 +27,109 @@ a:hover
 a:active {
 	color:#ffffff;
 }
-
-#photo{
-	position: relative;
-	margin-left: 700px;
-}
+/* a1 et a2 sont les liens posés sur l'entête */
 .a1 {
 	margin-left: 30px;
 }
 .a2 {
 	margin-left: 60px;
 }
-
+/* Je règle ici mes blocs "adresse" et "photo" - ceci pour remplacer le tableau que j'avais fait précédemment - 
+* "global_add" doit contenir adresse et "photo" */
+.global_add {
+   width:100%;
+   margin-top: 5px;
+}
 .adresse {
-	text-align:left;
+	float:left;
+	margin-left: 10px;
+	margin-top: 15px;
+    width:50%;
 	line-height : 0.5;
 	}
+.photo {
+	margin-left:85%
+}
+/* L'idée est juste d'arrondir un peu les bords de ma photo" */
+#pic {
+	border-radius: 90px;
+}	
+/* Je fixe la couleur de la partie "Domaines d'interventions" */
 .interv {
 	color:#30902e;
 }
+/* Réglage du Tître principal - ajout d'un background */
 .titre {
 	text-align: center;
 	color: #30902e;
-	border: 1px solid blue;
+	background-image: url(./img/fond.jpg);
+	background-size: cover;
+	border: 1px solid white;
+	border-radius: 20px;
 }
+/* Je positionne le logo Web2créa en face de la phrase précédente */
 .w2crea {
 	margin-bottom: -21px;
 }
+/* Je règle la taile de l'interligne de ma partie "Expérience Professionnelle" */
 .experience {
-	font-family: Comic;
+	
 	line-height : 2.0;
 }
+.global_pro {
+	width:100%;
+}
+/*
+.periode {
+	float:left;
+	margin-left: 10px;
+	width:210px;
+	line-height : 0.5;
+	font-weight:bold; 
+	
+}
+.pro {
+	margin-left: 100px;
+}
+/* Emplacement des dates des différents postes - mise en caractère Gras - réglage de la marge et de la taille */
+
 .periode {
 	font-weight:bold; 
 	margin-left: 10px;
-	width: 200px; 
+	width: 210px; 
 }
+/* Emplacement des descriptions des différents postes - réglage de la marge */
+
 .pro {
-	position: relative;
-	margin-left: 100px;
+		margin-left: 100px;
 }
+
+/* Je fixe la couleur de la partie "Formations et diplômes" */
 .formation {
 	color:#30902e;
 }
-.langue {
-	
-}
+
+/* Réglage de l'interligne de la partie "Activités extra professionnelles" */
 .activite {
 	line-height : 0.5;
 }
-
+/* Cette classe permet de mettre en italique et en bleu les régies*/
 .italique {
 	font-style : italic;
 	color: blue;
 }
+/* réglage de la position de la flèche permettant de remonter la page */
 .b3 {
-	float:right;
+float:right; 
+
+
 }
+/* réglage du pied de page hauteur et couleur */
 #footer{
-height:50px;
+height:570px;
 background:#025986;
+background-image: url(./img/graphic.jpg);
+background-size: cover;
 }
+
+/* Fin du css - On retourne voir ce qui se passe dans la prairie... */
