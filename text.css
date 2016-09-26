@@ -27,18 +27,14 @@ a:hover
 a:active {
 	color:#ffffff;
 }
-/* a1 et a2 sont les liens posés sur l'entête */
-.a1 {
-	margin-left: 30px;
-}
-.a2 {
-	margin-left: 60px;
-}
+
 /* Je règle ici mes blocs "adresse" et "photo" - ceci pour remplacer le tableau que j'avais fait précédemment - 
 * "global_add" doit contenir adresse et "photo" */
 .global_add {
    width:100%;
-   margin-top: 5px;
+   margin-top: 0px;
+   background-image: url();
+
 }
 .adresse {
 	float:left;
@@ -61,9 +57,6 @@ a:active {
 .interv {
 	color:#30902e;
 }
-.title_div {
-white-space: pre-line; 
-}
 
 /* Réglage du Tître principal - ajout d'un background */
 .titre {
@@ -78,55 +71,41 @@ white-space: pre-line;
 .w2crea {
 	margin-bottom: -21px;
 }
-/* Je règle la taile de l'interligne de ma partie "Expérience Professionnelle" */
-.experience {
-	
-	line-height : 2.0;
-}
-.global_pro {
-	width:100%;
-}
-/*
-.periode {
-	float:left;
-	margin-left: 10px;
-	width:210px;
-	line-height : 0.5;
-	font-weight:bold; 
-	
-}
-.pro {
-	margin-left: 100px;
-}
-/* Emplacement des dates des différents postes - mise en caractère Gras - réglage de la marge et de la taille */
 
-.periode {
+
+/* Emplacement des descriptions des différents postes - réglage de la marge */
+.section {
+	   width:100%;
+	   line-height : 1.5;
+	   text-align:justify;
+		text-justify:newspaper;
+}
+.section_gauche {
 	font-weight:bold; 
 	margin-left: 10px;
 	width: 210px; 
 }
-/* Emplacement des descriptions des différents postes - réglage de la marge */
-
-.pro {
-		margin-left: 100px;
-		text-align:justify;
-		text-justify:newspaper;
-}
-
-/* Je fixe la couleur de la partie "Formations et diplômes" */
-.formation {
-	color:#30902e;
-}
-
-/* Réglage de l'interligne de la partie "Activités extra professionnelles" */
-.activite {
-	line-height : 0.5;
+.section_droite {
+	margin-left: 230px;
+	margin-right: 60px;
 }
 /* Cette classe permet de mettre en italique et en bleu les régies*/
 .italique {
 	font-style : italic;
 	color: blue;
 }
+
+/* Je fixe la couleur de la partie "Formations et diplômes" */
+.formation {
+	color:#30902e;
+
+}
+
+/* Réglage de l'interligne de la partie "Activités extra professionnelles" */
+.activite {
+	line-height : 0.5;
+}
+
 /* réglage de la position de la flèche permettant de remonter la page */
 .b3 {
 /*float:right; */
