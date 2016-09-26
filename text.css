@@ -55,14 +55,21 @@ a:active {
 	border-radius: 90px;
 }	
 /* Je fixe la couleur de la partie "Domaines d'interventions" */
+.espace {
+	white-space: pre-line; 
+}
 .interv {
 	color:#30902e;
 }
+.title_div {
+white-space: pre-line; 
+}
+
 /* Réglage du Tître principal - ajout d'un background */
 .titre {
 	text-align: center;
 	color: #30902e;
-	background-image: url(./img/fond.jpg);
+	background-image: url(fond.jpg);
 	background-size: cover;
 	border: 1px solid white;
 	border-radius: 20px;
@@ -122,15 +129,16 @@ a:active {
 }
 /* réglage de la position de la flèche permettant de remonter la page */
 .b3 {
-float:right; 
-
-
+/*float:right; */
+position: absolute;
+right: 5px;
 }
+
 /* réglage du pied de page hauteur et couleur */
 #footer{
 height:570px;
 background:#025986;
-background-image: url(./img/graphic.jpg);
+background-image: url(graphic.jpg);
 background-size: cover;
 }
 
