@@ -3,7 +3,7 @@
 <head>
 <title>Cv Eric</title>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="text.css" /> 
+<link rel="stylesheet" type="text/css" href="style.css" /> 
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 <script src="jquery.js" type="text/javascript"></script>
 </head>
@@ -83,6 +83,27 @@
 	</div>
 -->	
 <!-- Remplacement du tableau par une méthode de positionnement dans le css --> 
+
+    
+    <script>
+$(document).ready(function(){
+
+	$(window).load(function() {
+      $(".section").fadeToggle("slow");
+	});
+    $("#show").mouseover(function(){
+        $(".section").fadeToggle("slow");
+    });
+    $("#hide").mouseover(function(){
+        $(".section").fadeToggle("slow");
+    });
+    
+
+});
+</script>
+   <span id="show">En savoir plus ...</span>
+
+
 <div class="section">
 	<div class="section_gauche">
 		<p>2015 à ce jour</p>
