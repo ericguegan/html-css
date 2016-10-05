@@ -1,4 +1,5 @@
-<script type="text/javascript">
+/* Menu ***************************************************************************** */
+
 $(document).ready( function () {
     // On cache les sous-menus :
     $(".navigation ul.subMenu").hide();
@@ -26,11 +27,10 @@ $(document).ready( function () {
         // On empêche le navigateur de suivre le lien :
         return false;
     });    
-
+/* fonction d'affichage caché-visible */
 
 } ) ;
-</script>
-    <script>
+
 $(document).ready(function(){
 
     $(window).load(function() {
@@ -44,4 +44,7 @@ $(document).ready(function(){
     });
     
 });
-</script>    
+
+/* Fonction qui permet de remonter en haut de page*/
+
+$(document).ready(function(){ $('.top').click(function(){ $('html,body').animate({scrollTop: 0},'slow'); }); }); 

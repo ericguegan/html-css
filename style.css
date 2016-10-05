@@ -29,7 +29,7 @@ a:active {
 }
 */
 
-	
+/* Réglage de la barre de navigation --- Exercice Jquery */	
 .navigation {
   margin: 0;
   padding: 0;
@@ -76,7 +76,7 @@ a:active {
 * "global_add" doit contenir adresse et "photo" */
 .global_add {
    width:100%;
-   margin-top: 100px;
+   margin-top: 50px;
    background-image: url();
 
 }
